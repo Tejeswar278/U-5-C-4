@@ -4,6 +4,8 @@ import { Login } from "./components/Login";
 import { Logout } from "./components/Logout";
 import { NewOrder } from "./components/NewOrder";
 import { Orders } from "./components/Orders";
+import { Link } from "react-router-dom";
+import { Routes } from "react-router-dom";
 import { ProtectedRoute } from "./components/ProtextedRoute";
 
 function App() {
@@ -37,6 +39,7 @@ function App() {
         <Route path="/orders" element={<Orders></Orders>}/>
         <Route path="/neworder" element={<NewOrder></NewOrder>}/>
         <Route path="/Protectedroute" element={<ProtectedRoute></ProtectedRoute>}/>
+        <Route ></Route>
       </Routes>
     </div>
   );
